@@ -1,0 +1,144 @@
+*{ 
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: #2c2c2c;
+}
+
+a,li {
+font-family: "Courier New" , sans-serif;
+color: #fff;
+font-size: 20px;
+}
+
+.header-menu{
+    background-color: #242424;
+    width: 100%;   
+    display:flex;
+    justify-content: flex-end;
+    align-items:center;
+}
+
+.nav-menu ul{
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu li{
+    margin-right: 2rem;
+}
+.nav-menu a:hover{
+    color: #4ad295;
+}
+.nav-menu li:last-child{
+    background-color: #4ad295 ;
+    border:2px solid #4ad295;
+    padding: .25rem .75rem;
+    border-radius: .2rem;
+}
+.nav-menu li:last-child:hover{
+    background: transparent;
+    border: 2px solid #4ad295;
+}
+
+
+
+.titulo{ 
+  display: flex;  
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center;     /* Centra verticalmente */
+  margin: 0;
+}
+
+.year{
+  display: flex;  
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center;     /* Centra verticalmente */
+  margin: -5px 0 0 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+.foto-titulo{
+  height: 500px; /* Altura del header */
+  background-image: url('titulo.jpg');
+  background-size: cover; /* Ajusta la imagen al tamaño del header */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que se repita */
+  /*border-radius: 20px;  Bordes redondeados */
+  font-family: 'Segoe UI';
+  font-size: 30px;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(29, 79, 98, 0.2);
+  padding: 30px;
+}
+
+h2{color:white;}
+
+h3{color:white}
+
+#dia10 {
+  background-color: #d3a380; /* Fondo */
+  border-radius: 50px;       /* Bordes redondeados */
+  padding: 30px;             /* Espacio interno */
+  margin: 20px ;
+  font-family: "Courier New" , sans-serif;
+}
+#dia11{
+  background-color: #c87d7d; /* Fondo */
+  border-radius: 50px;       /* Bordes redondeados */
+  padding: 30px;             /* Espacio interno */
+  margin: 20px ;
+  font-family: "Courier New" , sans-serif;
+}
+#dia12 {
+  background-color: #d3c480; /* Fondo */
+  border-radius: 50px;       /* Bordes redondeados */
+  padding: 30px;             /* Espacio interno */
+  margin: 20px ;
+  font-family: "Courier New" , sans-serif;
+}
+#dia13 {
+  background-color: #c6d380; /* Fondo */
+  border-radius: 50px;       /* Bordes redondeados */
+  padding: 30px;             /* Espacio interno */
+  margin: 20px ; 
+  font-family: "Courier New" , sans-serif;
+}
+#dia14 {
+  background-color: #88d380; /* Fondo */
+  border-radius: 50px;       /* Bordes redondeados */
+  padding: 30px;             /* Espacio interno */
+  margin: 20px ;
+  font-family: "Courier New" , sans-serif;
+}
+#dia15 {
+  background-color: #80d3b6; /* Fondo */
+  border-radius: 50px;       /* Bordes redondeados */
+  padding: 30px;             /* Espacio interno */
+  margin: 20px ; 
+  font-family: "Courier New" , sans-serif;
+}
+#dia16 {
+  background-color: #80a4d3; /* Fondo */
+  border-radius: 50px;       /* Bordes redondeados */
+  padding: 30px;             /* Espacio interno */
+  margin: 20px ; 
+  font-family: "Courier New" , sans-serif;
+}
+#dia17 {
+  background-color: #a480d3; /* Fondo */
+  border-radius: 50px;       /* Bordes redondeados */
+  padding: 30px;             /* Espacio interno */
+  margin: 20px ; 
+  font-family: "Courier New" , sans-serif;
+}
+#dia18 {
+  background-color: #d38099; /* Fondo */
+  border-radius: 50px;       /* Bordes redondeados */
+  padding: 30px;             /* Espacio interno */
+  margin: 20px ;
+  font-family: "Courier New" , sans-serif;
+}
